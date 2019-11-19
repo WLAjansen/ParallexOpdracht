@@ -1,0 +1,45 @@
+body {
+font-family: sans-serif;
+}
+
+.sectie{
+border: 1px solid blue;
+background-size: cover;
+padding: 2em;
+}
+
+.sectie--achtergrond {
+  padding: 48vh 3em;
+  color: rgba(255, 0, 0, 0.5);
+  font-size: 2em;
+  text-shadow: 0 0 14px grey;
+  overflow-x: hidden;
+
+}
+.sectie--2 {
+background-image: url('https://media.wired.com/photos/5af357caca35f96f250c9013/master/w_2560%2Cc_limit/Demian-Barrios_1.jpg');
+}
+
+.sectie--4 {
+background-image: url('https://www.niagarafallsstatepark.com/~/media/parks/niagara-falls/niagara-falls-state-park/photos-and-videos/photo-gallery-1.jpg');
+}
+
+.sectie--4 span:nth-child(2) {
+  color: red;
+}
+
+.sectie--4 span:nth-child(1) {
+  margin-left: -300px;
+}
+
+.sectie--4 span:nth-child(2) {
+  margin-left: +700px;
+}
+
+.sectie--4 span:nth-child(3) {
+  margin-left: +900px;
+}
+
+.sectie--6 {
+background-image: url('http://www.labaume-lapalmeraie.com/medias/admin/42-galerie-galerie-photo-du-camping.jpg');
+}
